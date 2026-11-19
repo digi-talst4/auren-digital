@@ -1,0 +1,159 @@
+
+body {
+    background-color: #080808;
+    color: #D4AF37;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding-top: 120px;
+}
+
+h1 {
+    font-size: 65px;
+    letter-spacing: 12px;
+}
+
+h2 {
+    color: white;
+    font-size: 24px;
+}
+
+p {
+    color: #bbbbbb;
+    font-size: 17px;
+}
+
+button {
+    background: #D4AF37;
+    color: black;
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+    border-bottom: 1px solid #333;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+#home {
+    padding: 100px 20px;
+}
+
+.btn {
+    display: inline-block;
+    background: #D4AF37;
+    color: black;
+    padding: 15px 30px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+#services {
+    padding: 60px 20px;
+}
+
+footer {
+    padding: 25px;
+    border-top: 1px solid #333;
+}
+
+/* AUREN Luxury Upgrade */
+
+body {
+    margin: 0;
+    background: #080808;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+nav h2 {
+    color: #D4AF37;
+    letter-spacing: 5px;
+}
+
+nav a:hover {
+    color: #D4AF37;
+    transition: 0.3s;
+}
+
+#home h1 {
+    font-size: 85px;
+    letter-spacing: 15px;
+    color: #D4AF37;
+}
+
+#home p {
+    letter-spacing: 2px;
+    margin-bottom: 35px;
+}
+
+.btn {
+    border: 1px solid #D4AF37;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: transparent;
+    color: #D4AF37;
+}
+
+#services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#services p {
+    width: 260px;
+    padding: 25px;
+    margin: 10px;
+    border: 1px solid #66531d;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+#services p:hover {
+    background: #19150a;
+    transform: translateY(-5px);
+    border-color: #D4AF37;
+}
+
+footer {
+    color: #888;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    nav {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav a {
+        margin: 8px;
+        font-size: 13px;
+    }
+
+    #home h1 {
+        font-size: 48px;
+        letter-spacing: 8px;
+    }
+
+    #home {
+        padding: 70px 15px;
+    }
+
+    #services p {
+        width: 75%;
+    }
+}
